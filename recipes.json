@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Quick Spinach Pasta",
+    "ingredients": ["200 g pasta", "2 tomatoes", "2 cloves garlic", "100 g spinach", "2 tbsp olive oil", "salt"],
+    "servings": 2,
+    "cooking_time_minutes": 18,
+    "dietary_tags": ["vegetarian"],
+    "estimated_cost_eur": 4.50
+  },
+  {
+    "name": "Tomato Garlic Pasta",
+    "ingredients": ["250 g pasta", "4 tomatoes", "3 cloves garlic", "2 tbsp olive oil", "basil", "salt", "pepper"],
+    "servings": 2,
+    "cooking_time_minutes": 25,
+    "dietary_tags": ["vegetarian", "vegan"],
+    "estimated_cost_eur": 3.80
+  },
+  {
+    "name": "Chickpea Curry",
+    "ingredients": ["400 g canned chickpeas", "1 onion", "2 cloves garlic", "1 can coconut milk", "2 tbsp curry powder", "200 g rice"],
+    "servings": 4,
+    "cooking_time_minutes": 35,
+    "dietary_tags": ["vegetarian", "vegan", "gluten-free"],
+    "estimated_cost_eur": 6.20
+  },
+  {
+    "name": "Veggie Stir-Fry",
+    "ingredients": ["200 g rice", "1 bell pepper", "1 carrot", "100 g broccoli", "2 tbsp soy sauce", "1 tbsp sesame oil", "2 cloves garlic"],
+    "servings": 2,
+    "cooking_time_minutes": 22,
+    "dietary_tags": ["vegetarian", "vegan"],
+    "estimated_cost_eur": 5.00
+  },
+  {
+    "name": "Cheese Omelette",
+    "ingredients": ["3 eggs", "50 g cheese", "1 tbsp butter", "salt", "pepper"],
+    "servings": 1,
+    "cooking_time_minutes": 10,
+    "dietary_tags": ["vegetarian", "gluten-free"],
+    "estimated_cost_eur": 2.50
+  },
+  {
+    "name": "Lentil Soup",
+    "ingredients": ["200 g red lentils", "1 onion", "2 carrots", "2 cloves garlic", "1 l vegetable broth", "1 tsp cumin"],
+    "servings": 4,
+    "cooking_time_minutes": 40,
+    "dietary_tags": ["vegetarian", "vegan", "gluten-free"],
+    "estimated_cost_eur": 4.00
+  },
+  {
+    "name": "Avocado Toast",
+    "ingredients": ["2 slices bread", "1 avocado", "1 lemon", "salt", "pepper", "chili flakes"],
+    "servings": 1,
+    "cooking_time_minutes": 8,
+    "dietary_tags": ["vegetarian", "vegan"],
+    "estimated_cost_eur": 3.00
+  },
+  {
+    "name": "Greek Salad",
+    "ingredients": ["2 tomatoes", "1 cucumber", "100 g feta cheese", "1 red onion", "2 tbsp olive oil", "oregano"],
+    "servings": 2,
+    "cooking_time_minutes": 12,
+    "dietary_tags": ["vegetarian", "gluten-free"],
+    "estimated_cost_eur": 5.50
+  },
+  {
+    "name": "Mushroom Risotto",
+    "ingredients": ["200 g arborio rice", "200 g mushrooms", "1 onion", "2 cloves garlic", "750 ml vegetable broth", "50 g parmesan", "2 tbsp butter"],
+    "servings": 2,
+    "cooking_time_minutes": 45,
+    "dietary_tags": ["vegetarian", "gluten-free"],
+    "estimated_cost_eur": 7.00
+  },
+  {
+    "name": "Black Bean Tacos",
+    "ingredients": ["400 g black beans", "6 tortillas", "1 avocado", "1 tomato", "1 lime", "1 tsp cumin", "salt"],
+    "servings": 3,
+    "cooking_time_minutes": 20,
+    "dietary_tags": ["vegetarian", "vegan"],
+    "estimated_cost_eur": 5.80
+  },
+  {
+    "name": "Caprese Salad",
+    "ingredients": ["2 tomatoes", "200 g mozzarella", "fresh basil", "2 tbsp olive oil", "balsamic vinegar", "salt"],
+    "servings": 2,
+    "cooking_time_minutes": 10,
+    "dietary_tags": ["vegetarian", "gluten-free"],
+    "estimated_cost_eur": 6.50
+  },
+  {
+    "name": "Lemon Herb Chicken",
+    "ingredients": ["400 g chicken breast", "2 lemons", "3 cloves garlic", "2 tbsp olive oil", "1 tsp dried oregano", "salt", "pepper"],
+    "servings": 2,
+    "cooking_time_minutes": 30,
+    "dietary_tags": ["gluten-free"],
+    "estimated_cost_eur": 7.50
+  },
+  {
+    "name": "Chicken Stir-Fry",
+    "ingredients": ["300 g chicken breast", "200 g rice", "1 bell pepper", "1 carrot", "100 g broccoli", "2 tbsp soy sauce", "1 tbsp sesame oil", "2 cloves garlic", "1 thumb ginger"],
+    "servings": 2,
+    "cooking_time_minutes": 25,
+    "dietary_tags": ["dairy-free"],
+    "estimated_cost_eur": 8.00
+  },
+  {
+    "name": "Chicken Curry",
+    "ingredients": ["500 g chicken thighs", "1 onion", "2 cloves garlic", "1 can coconut milk", "2 tbsp curry powder", "200 g rice", "1 tbsp vegetable oil", "salt"],
+    "servings": 4,
+    "cooking_time_minutes": 40,
+    "dietary_tags": ["gluten-free", "dairy-free"],
+    "estimated_cost_eur": 9.50
+  },
+  {
+    "name": "Chicken Alfredo Pasta",
+    "ingredients": ["250 g pasta", "300 g chicken breast", "200 ml cream", "50 g parmesan", "2 cloves garlic", "2 tbsp butter", "salt", "pepper"],
+    "servings": 3,
+    "cooking_time_minutes": 28,
+    "dietary_tags": [],
+    "estimated_cost_eur": 10.00
+  },
+  {
+    "name": "Baked Lemon Salmon",
+    "ingredients": ["400 g salmon fillet", "1 lemon", "2 cloves garlic", "2 tbsp olive oil", "fresh dill", "salt", "pepper"],
+    "servings": 2,
+    "cooking_time_minutes": 22,
+    "dietary_tags": ["gluten-free", "dairy-free"],
+    "estimated_cost_eur": 12.00
+  },
+  {
+    "name": "Pan-Fried Cod",
+    "ingredients": ["400 g cod fillet", "2 tbsp flour", "2 tbsp butter", "1 lemon", "2 tbsp olive oil", "salt", "pepper", "parsley"],
+    "servings": 2,
+    "cooking_time_minutes": 20,
+    "dietary_tags": [],
+    "estimated_cost_eur": 9.00
+  },
+  {
+    "name": "Fish Tacos",
+    "ingredients": ["400 g white fish fillet", "6 tortillas", "200 g cabbage", "1 avocado", "1 lime", "2 tbsp mayonnaise", "1 tsp cumin", "salt"],
+    "servings": 3,
+    "cooking_time_minutes": 25,
+    "dietary_tags": [],
+    "estimated_cost_eur": 11.50
+  },
+  {
+    "name": "Garlic Butter Shrimp Pasta",
+    "ingredients": ["250 g pasta", "300 g shrimp", "4 cloves garlic", "3 tbsp butter", "1 lemon", "2 tbsp olive oil", "parsley", "salt", "pepper"],
+    "servings": 2,
+    "cooking_time_minutes": 20,
+    "dietary_tags": [],
+    "estimated_cost_eur": 11.00
+  },
+  {
+    "name": "Honey Garlic Chicken",
+    "ingredients": ["400 g chicken thighs", "3 tbsp honey", "3 cloves garlic", "2 tbsp soy sauce", "1 tbsp olive oil", "200 g rice", "sesame seeds", "salt"],
+    "servings": 2,
+    "cooking_time_minutes": 28,
+    "dietary_tags": ["dairy-free"],
+    "estimated_cost_eur": 8.50
+  }
+]
