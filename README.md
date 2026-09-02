@@ -43,44 +43,35 @@ The project is split into four layers. Each file has one job, which keeps the fl
 
 ```mermaid
 flowchart LR
-    subgraph cli [CLI]
-        User[User]
-        Main[main.py]
-    end
+    User[User] --> Main[main.py]
 
-    subgraph agent_layer [Agent]
-        Agent[agent.py]
-    end
+    Main --> Agent[agent.py<br/>Agent Loop]
 
-    subgraph llm_layer [LLM]
-        LLM[llm.py]
-        Claude[Anthropic API]
-    end
+    Agent --> LLM[llm.py<br/>Anthropic Client]
+    LLM --> Claude[Claude<br/>LLM / Decision Maker]
 
-    subgraph tools_layer [Tools]
-        Registry[TOOLS registry]
-        Search[search_recipes]
-        Check[check_ingredients]
-        Scale[scale_recipe]
-        Time[estimate_cooking_time]
-        Data[(recipes.json)]
-    end
+    Claude -->|tool_use| Agent
 
-    User --> Main
-    Main --> Agent
-    Agent --> LLM
+    Agent --> Registry[TOOLS Registry]
+
+    Registry --> Search[search_recipes]
+    Registry --> Check[check_ingredients]
+    Registry --> Scale[scale_recipe]
+    Registry --> Time[estimate_cooking_time]
+
+    Search --> Data[(recipes.json)]
+
+    Search -->|tool result| Agent
+    Check -->|tool result| Agent
+    Scale -->|tool result| Agent
+    Time -->|tool result| Agent
+
+    Agent -->|tool_result + history| LLM
     LLM --> Claude
-    Agent --> Registry
-    Registry --> Search
-    Registry --> Check
-    Registry --> Scale
-    Registry --> Time
-    Search --> Data
-    Check --> Data
-    Scale --> Data
-    Time --> Data
-    Agent -->|tool results| LLM
-    Agent -->|final answer| User
+
+    Claude -->|final answer| Agent
+    Agent --> Main
+    Main --> User
 ```
 
 
