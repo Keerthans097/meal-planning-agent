@@ -105,8 +105,7 @@ The application owns execution: only registered tools in `TOOLS` can run, requir
 ### Install
 
 ```bash
-git clone <your-repo-url>
-cd cooking-agent
+git clone https://github.com/Keerthans097/meal-planning-agent/
 
 python -m venv .venv
 
